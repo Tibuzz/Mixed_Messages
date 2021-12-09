@@ -1,16 +1,16 @@
 // Parts to randomly chose from: Day, Color, Cloth
-const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-const colors = ['blue', 'yellow', 'black', 'green', 'red', 'purple', 'sand'];
-const cloths = ['jeans', 'socks', 'sweater', 'shirt', 'dress', 'skirt', 'underwear'];
+const randomPhrase = {
+ days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+ colors: ['blue', 'yellow', 'black', 'green', 'red', 'purple', 'sand'],
+ cloths: ['jeans', 'socks', 'sweater', 'shirt', 'dress', 'skirt', 'underwear'],
 
-
-const randomSelect = arr => {
-   return  arr[Math.floor(Math.random() * arr.length)];
+  randomSelect(arr){
+    return  arr[Math.floor(Math.random() * arr.length)];
+  }
 }
 
-let day = randomSelect(days);
-let color = randomSelect(colors);
-let cloth = randomSelect(cloths);
-
+let day = randomPhrase.randomSelect(randomPhrase.days);
+let color = randomPhrase.randomSelect(randomPhrase.colors);
+let cloth = randomPhrase.randomSelect(randomPhrase.cloths);
 
 console.log(`On ${day} you'll wear ${color} ${cloth}`);
