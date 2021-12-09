@@ -6,9 +6,9 @@ The random message is made of three parts randomly added together.
 
 ## Table of contents
 ***
-* [Technologies](*Technologies)
-* [Code description](*Code_description)
-* [Setup](*Setup)
+* [Technologies](#Technologies)
+* [Code description](#Code-description)
+* [Setup](#Setup)
 
 
 
@@ -28,7 +28,9 @@ Math.floor(Math.random());
 
 Download main.js, in a terminal open the directory you downloaded the file and type
 
-```node main.js```
+```
+$ node main.js
+```
 
 
 
