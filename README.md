@@ -1,17 +1,22 @@
 # Mixed Messages App
 ---
-
+<br>
 An app that shows a random message each time the user open it.
 The random message is made of three parts randomly added together.
+<br>
+<br>
+
 
 ## Table of contents
 ***
+<br>
+
 * [Technologies](#Technologies)
 * [Code description](#Code-description)
 * [Setup](#Setup)
 
 
-
+<br><br><br>
 ### Technologies
 
 Javascript, git
